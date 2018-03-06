@@ -1,0 +1,1 @@
+var WC = new WindowControll();
