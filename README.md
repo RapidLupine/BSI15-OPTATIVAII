@@ -5,7 +5,3 @@ Repositorio para desenvolvimento da disciplina OPTATIVA II
 vem em mim seu lindo
 
 ###Lista de Beldades
-- dunha
-- circe
-- dirce
-- nirce

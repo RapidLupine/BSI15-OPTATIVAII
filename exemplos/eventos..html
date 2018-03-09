@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            color: white;
+            background: rgba(0, 0, 0, 5);
+            padding: 5vw;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input>
+        <button>Send</button>
+    </form>
+    <div>
+        AAA
+        <div>
+            BBB
+            <div>
+                CCC
+            </div>
+        </div>
+    </div>
+    <script>
+        const form = document.querySelector('form')
+
+        form.addEventListener('submit', function(ev){
+
+        }, false)
+
+        const divA = document.querySelector('div:nth-child(1)')
+        const divB = divA.querySelector('div')
+        const divC = divB.querySelector('div')
+
+        divA.addEventListener('click', ev =>{
+            alert('div A')
+        }, false)
+
+        divB.addEventListener('click', ev =>{
+            alert('div B')
+        }, false)
+
+        divC.addEventListener('click', ev =>{
+            alert('div C')
+        }, false)
+    </script>
+</body>
+</html>
